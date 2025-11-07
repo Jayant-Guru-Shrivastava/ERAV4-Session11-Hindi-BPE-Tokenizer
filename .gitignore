@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+*.tecode
+artifacts/
+*.zip
+*.pth
+*.bin
+*.tiktoken
+.ipynb_checkpoints/
+data/hindi_iitb.txt
+data/hindi_train_10mb.txt
+data/hindi_train_10mb.clean.txt
+data/test_10.txt
+data/train_90.txt
+.venv311
