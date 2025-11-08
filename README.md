@@ -7,7 +7,7 @@ Built with the Rust‑backed `tokenizers` library for speed and reproducibility.
 - **Compression Ratio (held‑out 10%):** **3.8694** (bytes / tokens)
 - **Training split:** 90% of ~311 MB (≈293 MB)
 - **Evaluation split:** 10% (≈32.6 MB)
-- **Hardware:** Apple M1 (CPU), `tokenizers` Rust backend
+- **Hardware:** Apple M4 (CPU), `tokenizers` Rust backend
 
 > We use **GPT‑style Byte‑Level BPE**: merges are learned over raw bytes (0–255).  
 > This is robust to any script, punctuation, or emoji and is losslessly reversible.
