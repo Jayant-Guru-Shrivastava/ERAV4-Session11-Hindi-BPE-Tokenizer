@@ -45,8 +45,6 @@ Built with the Rust‑backed `tokenizers` library for speed and reproducibility.
 │   └── bpe.py                    # reference byte‑level BPE (pure Python)
 ├── hf_space/
 │   └── app.py                    # Gradio demo (encode/decode + CR)
-├── notebooks/
-│   └── train_bpe.ipynb           # optional, for transparency/repro
 ├── scripts/
 │   ├── clean_hindi.py            # optional cleaner (URLs/emails/ASCII‑heavy lines)
 │   ├── train_bpe_fast.py         # Rust‑fast training (Hugging Face tokenizers)
