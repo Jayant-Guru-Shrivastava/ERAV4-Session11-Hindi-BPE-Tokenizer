@@ -13,8 +13,7 @@ __pycache__/
 
 # data: don't track big raw files; allow small samples
 data/*
-!data/README.md
-!data/hindi_train_10mb.clean.txt  # keep one small sample if you want
+!data/hindi_train_10mb.clean.txt
 
 # artifacts: track the tokenizer.json
 artifacts/*
