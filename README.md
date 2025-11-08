@@ -104,6 +104,7 @@ Vocab size: 8192
 Compression Ratio (bytes/tokens): ~3.87
 Target met?  YES
 ```
+<img width="675" height="373" alt="image" src="https://github.com/user-attachments/assets/47c32f49-dbb1-434e-a1f1-578019e98afa" />
 
 ---
 
