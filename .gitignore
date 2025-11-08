@@ -1,16 +1,21 @@
+# env & caches
 .venv/
+.venv311
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 *.tecode
-artifacts/
 *.zip
 *.pth
 *.bin
 *.tiktoken
-.ipynb_checkpoints/
-data/hindi_iitb.txt
-data/hindi_train_10mb.txt
-data/hindi_train_10mb.clean.txt
-data/test_10.txt
-data/train_90.txt
-.venv311
+.DS_Store
+
+# data: don't track big raw files; allow small samples
+data/*
+!data/README.md
+!data/hindi_train_10mb.clean.txt  # keep one small sample if you want
+
+# artifacts: track the tokenizer.json
+artifacts/*
+!artifacts/tokenizer.json
